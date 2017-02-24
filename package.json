@@ -1,0 +1,30 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "engines": {
+    "node": "7.4.0",
+    "npm": "4.0.5"
+  },
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"No Test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bxc1712/http-api-assignment-ii.git"
+  },
+  "author": "BC",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/bxc1712/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/bxc1712/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
